@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ashishjuyal/banking-lib/logger"
 	"github.com/maxvidenin/banking-auth/dto"
 	"github.com/maxvidenin/banking-auth/service"
+	"github.com/maxvidenin/banking-lib/logger"
 )
 
 type AuthHandler struct {

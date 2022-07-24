@@ -8,13 +8,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ashishjuyal/banking-lib/logger"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gorilla/mux"
 	"github.com/jmoiron/sqlx"
 	"github.com/joho/godotenv"
 	"github.com/maxvidenin/banking-auth/domain"
 	"github.com/maxvidenin/banking-auth/service"
+	"github.com/maxvidenin/banking-lib/logger"
 )
 
 func Start() {
